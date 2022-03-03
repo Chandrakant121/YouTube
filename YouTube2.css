@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#lnav img {
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#lnav span {
+    margin-left: 15px;
+}
+
+#lnav #sub {
+    margin-left: 2px;
+}
+
+#navbar {
+    display: flex;
+}
+
+#search {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#video {
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(243, 237, 229);
+    cursor: pointer;
+}
+
+#btn1 {
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(141, 141, 141);
+}
+
+#btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+#video1 {
+    margin-top: 15px;
+}
+
+#video2 {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#thumb {
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+#thumb:hover {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width:0px) and (max-width: 320px) {
+    #video2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 720px) {
+    #video2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.btn11 {
+    float: right;
+    margin-right: 50px;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(141, 141, 141);
+}
+
+.btn11:hover {
+    background-color: black;
+    color: white;
+}
